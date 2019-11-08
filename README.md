@@ -11,7 +11,7 @@ Usage:
   -- COMMAND ARGS                     Execute command with args after the test finishes
 ```
 
-## Example
+## Example
 With [Docker Compose](https://docs.docker.com/compose/startup-order/), you want to start a Liferay cluster and therefore the second node must start just after the first node is available:
 
 - `Dockerfile`:
