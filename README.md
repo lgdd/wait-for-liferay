@@ -7,6 +7,7 @@
 ```
 Usage:
   wait-for-liferay.sh host:port [-- command args]
+  -s | --sleep=SLEEP                  Time in seconds to wait between tests (default=1)
   -q | --quiet                        Don't output any status messages
   -- COMMAND ARGS                     Execute command with args after the test finishes
 ```
